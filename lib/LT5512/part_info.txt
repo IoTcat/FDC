@@ -1,0 +1,9 @@
+Manufacturer=Linear Technology
+PartNumber=LT5512EUF#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=1.1
+Released=2015-04-17 13:37:26
+Downloaded=2020-01-03 10:50:23
+3D=Y

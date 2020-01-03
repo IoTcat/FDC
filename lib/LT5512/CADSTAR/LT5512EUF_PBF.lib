@@ -1,0 +1,16 @@
+.LT5512EUF_PBF :1 ;LT5512EUF#PBF, Downconverter & Mixer 2000MHz 4.5  5.25 V 16-Pin QFN EP
+QFN65P400X400X80-17N-D
+*STM IC
+*NGS
+*PLB 1="NC" 2="RF+" 3="RF-" 4="NC_1" 5="EN" 6="VCC1" 7="VCC2" 8="NC_2" 9="GND" 10="IF-" 11="IF+" 12="GND_1" 13="NC_3" 14="LO-" 15="LO+" 16="NC_4" 17="GND_(EP)"
+*MXP 17
+*DFN LT5512EUF_PBF
+~!RS Part Number (5060861P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/5060861P)
+~!Manufacturer_Name (Linear Technology)
+~!Manufacturer_Part_Number (LT5512EUF#PBF)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/5060861P)
+~!Height (0.8mm)
+~!3D_Model (LT5512EUF#PBF)
+LT5512EUF_PBF
+1.1!U 2.1!I 3.1!I 4.1!U 5.1!U 6.1!P 7.1!P 8.1!U 12.1!P 11.1!Y 10.1!Y 9.1!P 17.1!G 16.1!U 15.1!I 14.1!I 13.1!U 

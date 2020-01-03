@@ -1,0 +1,201 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LT5512EUF#PBF"
+   (description "LT5512EUF#PBF, Downconverter & Mixer 2000MHz 4.5  5.25 V 16-Pin QFN EP")
+   (family "ANA")
+   (package "QFN65P400X400X80-17N-D")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/5060861P")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "RS Part Number" "5060861P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/5060861P")
+   (attribute "Manufacturer_Name" "Linear Technology")
+   (attribute "Manufacturer_Part_Number" "LT5512EUF#PBF")
+   (gate
+    (symbol "LT5512EUF#PBF")
+    (pin "NC" 1 NC)
+    (pin "RF+" 2 IP)
+    (pin "RF-" 3 IP)
+    (pin "NC_1" 4 PS)
+    (pin "EN" 5 PS)
+    (pin "VCC1" 6 PP)
+    (pin "VCC2" 7 PP)
+    (pin "NC_2" 8 PS)
+    (pin "GND_1" 12 PP)
+    (pin "IF+" 11 OP)
+    (pin "IF-" 10 OP)
+    (pin "GND" 9 PP)
+    (pin "GND_(EP)" 17 PP)
+    (pin "NC_4" 16 PS)
+    (pin "LO+" 15 IP)
+    (pin "LO-" 14 IP)
+    (pin "NC_3" 13 PS)
+   )
+  )
+  (symbol "LT5512EUF#PBF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 600) (pt 1000 600) (pt 1000 -700) (pt 200 -700) (pt 200 600) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 800) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 800) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 800) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 800) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 800) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "QFN65P400X400X80-17N-D"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.65 2.65)
+      (pt 2.65 2.65)
+      (pt 2.65 -2.65)
+      (pt -2.65 -2.65)
+      (pt -2.65 2.65))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 2)
+      (pt 2 2)
+      (pt 2 -2)
+      (pt -2 -2)
+      (pt -2 2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2 1.35)
+      (pt -1.35 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.325)
+     (circle
+      (pt -2.238 1.95) (pt -2.563 1.95)
+     )
+    )
+   )
+   (leg 1 (pt -1.85 0.975) (padstack 0))
+   (leg 2 (pt -1.85 0.325) (padstack 0))
+   (leg 3 (pt -1.85 -0.325) (padstack 0))
+   (leg 4 (pt -1.85 -0.975) (padstack 0))
+   (leg 5 (pt -0.975 -1.85) (padstack 1))
+   (leg 6 (pt -0.325 -1.85) (padstack 1))
+   (leg 7 (pt 0.325 -1.85) (padstack 1))
+   (leg 8 (pt 0.975 -1.85) (padstack 1))
+   (leg 9 (pt 1.85 -0.975) (padstack 2))
+   (leg 10 (pt 1.85 -0.325) (padstack 2))
+   (leg 11 (pt 1.85 0.325) (padstack 2))
+   (leg 12 (pt 1.85 0.975) (padstack 2))
+   (leg 13 (pt 0.975 1.85) (padstack 3))
+   (leg 14 (pt 0.325 1.85) (padstack 3))
+   (leg 15 (pt -0.325 1.85) (padstack 3))
+   (leg 16 (pt -0.975 1.85) (padstack 3))
+   (leg 17 (pt 0 0) (padstack 17))
+   (padstack 0
+    (pad (layer TCOP) (path (pt -0.55 0.175) (arc (pt 0.375 0.175) (pt 0.2 -0.175) (pt 0.55 0.175) (start -180) (sweep 90)) (pt 0.375 -0.175) (pt -0.55 -0.175) (pt -0.55 0.175)))
+   )
+   (padstack 1
+    (pad (layer TCOP) (path (pt -0.175 -0.55) (arc (pt -0.175 0.375) (pt -0.175 0.2) (pt 0.175 0.55) (start -180) (sweep 180)) (pt 0.175 0.375) (pt 0.175 -0.55) (pt -0.175 -0.55)))
+   )
+   (padstack 2
+    (pad (layer TCOP) (path (pt 0.55 -0.175) (arc (pt -0.375 -0.175) (pt -0.55 -0.175) (pt -0.2 0.175) (start -180) (sweep 270)) (pt -0.375 0.175) (pt 0.55 0.175) (pt 0.55 -0.175)))
+   )
+   (padstack 3
+    (pad (layer TCOP) (path (pt 0.175 0.55) (arc (pt 0.175 -0.375) (pt -0.175 -0.55) (pt 0.175 -0.2) (start -180) (sweep 0)) (pt -0.175 -0.375) (pt -0.175 0.55) (pt 0.175 0.55)))
+   )
+   (padstack 17
+    (plated false)
+    (pad (layer TCOP) (rectf 2.25 2.25 0 0 90))
+   )
+   (model "LT5512EUF#PBF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
