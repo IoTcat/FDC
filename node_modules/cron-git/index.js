@@ -34,7 +34,7 @@ module.exports = function(o_params){
 				branch: 'master'
 			},
 			add: {
-				path: './*'
+				path: o.dir
 			},
 			commit: {
 				message: "Committed by cron-git from "+ require('os').hostname()
@@ -80,7 +80,7 @@ module.exports = function(o_params){
 	var push = function(params_user, callback){
 		var params = {
 			add: {
-				path: './*'
+				path: o.dir
 			},
 			commit: {
 				message: "Committed by cron-git from "+ require('os').hostname()
