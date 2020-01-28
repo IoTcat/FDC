@@ -1,5 +1,5 @@
 @echo off
-COPY /Y script\fdc_startup.bat tmp.bat
+COPY /Y fdc_startup.bat tmp.bat
 setlocal enabledelayedexpansion
 set fn=tmp.bat
 (for /f "tokens=*" %%i in (%fn%) do (
