@@ -1,2 +1,2 @@
 call makeTmp.bat
-call 
+call admin_startup.bat
