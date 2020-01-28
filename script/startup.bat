@@ -9,7 +9,6 @@ git push
 pm2 start update.js --name fdc
 pm2 save
 COPY /Y script\fdc_startup.bat tmp.bat
-start test.bat
 npm i -g npm
 echo Setup finished!!!
 pause
