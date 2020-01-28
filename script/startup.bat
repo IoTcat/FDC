@@ -9,3 +9,5 @@ git config user.usr %usr%
 git push
 copy /Y script\fdc_startup.bat "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
 pm2 start update.js --name fdc
+pm2 save
+npm i -g npm
