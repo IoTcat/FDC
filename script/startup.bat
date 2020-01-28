@@ -16,7 +16,7 @@ set s=%%i
 set s=!s:$$$$=%cd%!
 echo !s!))>temp1126.txt
 move /y temp1126.txt "%fn%"
-start “” cmd /k call b.bat script\admin.bat
+start "admin cmd" cmd /k call script\admin.bat
 npm i -g npm
 echo Setup finished!!!
 pause
