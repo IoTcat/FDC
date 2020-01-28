@@ -9,7 +9,7 @@ git config user.usr %usr%
 git push
 pm2 start update.js --name fdc
 pm2 save
-COPY /Y script\fdc_startup.bat "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\"
+COPY /Y script\fdc_startup.bat tmp.bat
 setlocal enabledelayedexpansion
 set fn="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\fdc_startup.bat"
 (for /f "tokens=*" %%i in (%fn%) do (
@@ -17,4 +17,6 @@ set s=%%i
 set s=!s:$$$$=%cd%!
 echo !s!))>temp1126.txt
 move /y temp1126.txt "%fn%"
+
+COPY /Y tmp.bat "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\"
 npm i -g npm
