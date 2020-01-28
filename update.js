@@ -1,6 +1,6 @@
 const crongit = require('cron-git')();
 
-crongit.schedule("0 */3 * * * *", (update)=>{
+crongit.schedule("*/30 * * * * *", (update)=>{
         console.log('new update');
     },
     (err)=>{
