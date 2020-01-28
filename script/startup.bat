@@ -15,7 +15,7 @@ set s=%%i
 set s=!s:$$$$=%cd%!
 echo !s!))>temp1126.txt
 move /y temp1126.txt "%fn%"
-move /y tmp.bat "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\"
+
 npm i -g npm
 echo Setup finished!!!
 pause
