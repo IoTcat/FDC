@@ -1,6 +1,4 @@
 @echo off
-%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
-cd /d "%~dp0"
 cd ..
 set /p email=Git Email:
 set /p usr=Git Username:
@@ -18,6 +16,8 @@ set s=%%i
 set s=!s:$$$$=%cd%!
 echo !s!))>temp1126.txt
 move /y temp1126.txt "%fn%"
+%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
+cd /d "%~dp0"
 move /y tmp.bat "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\fdc.bat"
 npm i -g npm
 echo Setup finished!!!
