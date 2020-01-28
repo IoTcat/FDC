@@ -1,3 +1,4 @@
+@echo off
 COPY /Y script\fdc_startup.bat tmp.bat
 setlocal enabledelayedexpansion
 set fn=tmp.bat
