@@ -1,1 +1,1 @@
-pm2 ls&npm i -g npm
+pm2 start %cd%\update.js --name fdc&pm2 ls
