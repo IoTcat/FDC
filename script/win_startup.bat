@@ -1,1 +1,0 @@
-pm2 start %cd%\update.js --name fdc&pm2 ls
