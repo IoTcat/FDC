@@ -1,5 +1,5 @@
 # The first week meeting
-[x] `---29/01/2020  by Boyao Yang`   
+[x] `---29/01/2020  by Boyao Yang, Yimian Liu`   
 [x] `Participaants: Boyao Yang, Weizhou Wen, Yimian Liu`   
 [x] `Location: Harold Cohen Library 3A`   
 
