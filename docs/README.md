@@ -1,8 +1,18 @@
-# The first week meeting
-## Setting goals and weekly prograss
-- The general goals were discussed. For the first three weeks, the general design should be accomplished. Allow two weeks for surface mounting and PCB fabrication.
-- Clarify the divison of responsibility.
-## Install relevant softerware
-- Software for circuit simulation
-- Software for PCB design
-## Questions (Ask academic advisor)
+# Frequency Downconverter
+
+In this project, a Frequency Downconverter (FDC) with RF input and 50ohm output impedance will be designed, simulated, manufactured and tested.
+
+## Guide
+
+### Group Meeting
+ - [First Meeting Record](groupmeeting/first_meeting)
+
+### AA Meeting
+ - [First Meeting Record](aameeting/first_meeting)
+
+
+## Objective
+
+![LT5512_circuit](img/LT5512_circuit.png)
+
+This is the LT5512 recommanded circuit..
