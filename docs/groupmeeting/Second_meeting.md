@@ -1,7 +1,8 @@
 # Sencond Group Meeting
->[x] ---30/01/2020 by Yidi Song
->[x] Participaants: Boyao Yang, Weizhou Wen, Yimian Liu, Yidi Song
->[x] Location: EE 5 floor AA office
+>[x] ---30/01/2020 by Yidi Song   
+>[x] Participaants: Boyao Yang, Weizhou Wen, Yimian Liu, Yidi Song   
+>[x] Location: Harold Cohen Library   
+
 
 ## Setting goals   
 ### Song:   
