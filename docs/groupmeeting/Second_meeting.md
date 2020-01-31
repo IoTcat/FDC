@@ -22,13 +22,6 @@
    
    
 ## How are these goals being achieved   
-### Song:   
-
-### Yang:   
-
-### Liu:   
-
-### Wen:   
 
 
 ## What are the problems   
