@@ -3,6 +3,8 @@
 In this project, a Frequency Downconverter (FDC) with RF input and 50ohm output impedance will be designed, simulated, manufactured and tested.
 
 ## Guide
+### Check List
+ - [First Lab Checklist](checklist/first_lab.md)
 
 ### Group Meeting
  - [First Group Meeting Record](groupmeeting/first_meeting.md)
