@@ -16,8 +16,7 @@
  - **Do not** need a bandpass filter at input
  - **Do not** need a amplifer at input and output
  - May need a bandpass near output
- - Think how to design the output impandance to be **50ohms**
+ - Think how to design the output impandance to be ***50ohms***
  - The output bandpass may use **butterworth**
  - The gain can be not considered
  - The input can be designed to be any range between `300M-3GHz`, `1850-1910MHz` is ok
-\
