@@ -19,7 +19,7 @@
     - Find the way to let the output impedance is 50 ohms.   
 
 ### Wen:   
-    - Filter simulation and design.
+    - Simulate and design filter.
    
 ## How are these goals being achieved   
 
