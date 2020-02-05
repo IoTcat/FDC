@@ -1,0 +1,3 @@
+[submodule "proj\\latest"]
+	path = proj\\latest
+	url = https://github.com/iotcat/fdc-altium
