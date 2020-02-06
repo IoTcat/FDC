@@ -1,7 +1,7 @@
 # Sencond Group Meeting
 >[x] ---05/02/2020 by Yidi Song   
 >[x] Participaants: Boyao Yang, Weizhou Wen, Yimian Liu, Yidi Song   
->[x] Location: Harold Cohen Library   
+>[x] Location: CTH
 
 
 ## Setting goals   
@@ -12,14 +12,14 @@
 
 ### Yang:   
     - Drawing schematics    
-    - Circuit Simulation    
     - Continue to learn the ways to use the software, including the way to design PCD.   
 
-### Liu:   
+### Wen:   
     - Find the way to let the output impedance is 50 ohms.   
 
-### Wen:   
+### Liu:   
     - Simulate and design filter.
+    - Circuit Simulation    
    
 ## How are these goals being achieved   
 
