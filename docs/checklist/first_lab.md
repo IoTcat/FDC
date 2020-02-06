@@ -5,10 +5,13 @@
 
 ### compulsory
 
-[x] Write AA meeting record table and email to AA `Y Song`   
-[] Learn Markdown & Git `All`   
-[x] Find all component models `B Yang`   
-[x] Build all component models that not provided `B Yang`   
+[] Learn Git `Y Song, W Wen`   
+[] Learn Altium `W Wen`   
+[] Learn Latex `Y Song`
+[] List PCB Design pricinples on Blog `B Yang`   
+[] Try PCB Design `B Yang`
+[] Teach Git & Altium `B Yang`
+[] 
 [x] Finish the circuit except the BPF and impedance `B Yang`   
 [] Simulate to get the BPF band range `B Yang, Y Liu`   
 [] Design BPF and insert to circuit `Y Liu`   
