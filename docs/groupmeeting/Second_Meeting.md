@@ -22,11 +22,3 @@
     - Circuit Simulation    
    
 ## How are these goals being achieved   
-
-
-## What are the problems   
-
-
-## What are the problems should be asked for AA   
-
-## Tasks for next week   
