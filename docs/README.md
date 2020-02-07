@@ -8,11 +8,13 @@ In this project, a Frequency Downconverter (FDC) with RF input and 50ohm output 
 
 ### Group Meeting
  - [First Group Meeting Record](groupmeeting/first_meeting.md)
- - [Second Group Meeting Record](groupmeeting/Second_meeting.md)
+ - [Second Group Meeting Record](groupmeeting/Second_Meeting.md)
+ - [Third Group Meeting Record](groupmeeting/Third_Meeting.md)
 
 ### AA Meeting
  - [First AA Meeting Record](aameeting/first_meeting.md)
- - [Second AA Meeting Record](aameeting/Second_meeting.md)
+ - [Second AA Meeting Record](aameeting/Second_Meeting.md)
+ - [Third AA Meeting Record](aameeting/Third_Meeting.md)
 
 
 ## Objective
