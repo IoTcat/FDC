@@ -16,5 +16,5 @@
     - Simulate and design filter.
     - Circuit Simulation    
    
-During the second week our team members taught pcb drawing by themselves. Here is one of the drawing exercise manuscripts.  
+During the second week our team members learned pcb drawing by themselves. Here is one of the drawing exercise manuscripts.    
 ![pcb practice manuscript](img/WechatIMG93.png)
