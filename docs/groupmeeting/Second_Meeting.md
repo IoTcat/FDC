@@ -17,4 +17,4 @@
     - Circuit Simulation    
    
 During the second week our team members taught pcb drawing by themselves. Here is one of the drawing exercise manuscripts.  
-![PCB practice manuscript](WechatIMG93.png)
+![PCB practice manuscript](img/WechatIMG93.png)
