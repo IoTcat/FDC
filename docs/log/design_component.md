@@ -12,4 +12,10 @@
  - Figure out IF Table on Spec is ||
  - to 610M 80M (1300M) 690M
  - IF 5.6pF 220nH 220nH
- - 
+ - new branch v2.0.1
+ - Figure out component list
+ - Find component provider
+ - Finish component List
+ - new schematic
+ - check bom
+ 
