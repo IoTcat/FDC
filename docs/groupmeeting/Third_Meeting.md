@@ -10,4 +10,5 @@
     3. Redesign schematic.    
     
 We learned how to use LaTex and written a exercise article. Contents, table, picture, reference and equations were all included. The picture of this exercise is shown below.    
-![LaTex exercise](FDC/docs/img/LaTex_exercise.png)    
+![LaTex exercise](https://github.com/IoTcat/FDC/blob/master/docs/img/LaTex_exercise.png)    
+We learned the basic uses of Git.
