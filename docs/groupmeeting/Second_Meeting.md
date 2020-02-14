@@ -19,5 +19,5 @@
 During the second week our team members learned pcb drawing by themselves. Here is one of the drawing exercise manuscripts.    
 ![pcb practice manuscript](img/WechatIMG93.png)    
 
-Besides,we determined the first schematic demo.    
+Besides,we already determined the first schematic demo.    
 ![demo 1](img/WechatIMG95.png)
