@@ -9,4 +9,5 @@
     2. Learned the PCB wiring and layout, and completed the PCB wiring of the 0.0.1 version of the circuit.    
     3. Redesign schematic.    
     
-We learned how to use LaTex and written a exercise article. Contents, table, picture, reference and equations were all included.
+We learned how to use LaTex and written a exercise article. Contents, table, picture, reference and equations were all included. The picture of this exercise is shown below.    
+![LaTex exercise](docs/img/LaTex exercise.png)
