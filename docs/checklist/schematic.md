@@ -3,10 +3,10 @@
 
 ## Task 
 
-[x] Select IC
-[x] Impedance Matching
-[x] Filter Design
-[x] Differencial Line Design
-[x] Simulation
-[x] Output BOM and purchase List
-
+[x] Select IC   
+[x] Impedance Matching   
+[x] Filter Design   
+[x] Differencial Line Design   
+[x] Simulation   
+[x] Output BOM and purchase List   
+ 
