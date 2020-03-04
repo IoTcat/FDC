@@ -1,6 +1,8 @@
 # Schematic Design
 
-We have conducted two purchase. The first purchase components list was proposeed in Jan when all the schematic is still uncertain. To meet the request of design a downconverter from UHF to VHF, a mixer IC LT5512 made by Liner Tech was selected to be our center component. Besides, BNC jacks and PCB headers as well as several amplifier was also considered. When it came to the second times purchase, the circuit 
+## Overview
+
+Six steps were conducted in the circuit design produrce. The first step is to select a Mixer IC, which should accpet UHF signal and need to be in stock in UK. We selected LT5512 IC which can support up to 3GHz signal in this case. Secondly, impedance matching is processed in order to match standard 50Ω input and 50Ω output. In this case, capacitors and inductors were utilized to design with the help of Smith chart and online design tools. Thirdly, a Low Pass Filter function was considered while design the impedance matching in the IF part. Then, Differcial Line Design was tried to optimized the performance of signal transmission. Additionally, simmulation was conducted with ADS to verify the circuit performance.
 
 ## Component Selection and Purchase
 The first produrce of component selection is figure out what we really needed. In this case, a mixer, three BNC jacks and one PCB header are necessary, while others such as transformses, amplifier, filters are optional. After confirm what we needed (the schametic), component selection can be proceeded. During the component selection, it is common and sometimes unavoidly unable to find a expected component. When this happened, a new purchase list in corresponding with a redesign schematic should be proceeded.
