@@ -14,29 +14,31 @@
   <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
   <script src="https://cdn.yimian.xyz/ushio-js/ushio-footer.min.js"></script>
   <script>
-    docute.init({
-      sidebar: [
-        // A sidebar item, with child links
+
+
+    docute = new Docute({
+  sidebar: [
+    // A sidebar item, with child links
+    {
+      title: 'Guide',
+      children: [
         {
-          title: 'Guide',
-          children: [
-            {
-              title: 'Circuit Design',
-              link: '/part/schematic'
-            },
-            {
-              title: 'PCB Design',
-              link: '/part/pcb'
-            }
-          ]
+          title: 'Getting Started',
+          link: '/guide/getting-started'
         },
-        // An external link
         {
-          title: 'GitHub',
-          link: 'https://github.com/egoist/docute'
+          title: 'Installation',
+          link: '/guide/installation'
         }
       ]
-    })
+    },
+    // An external link
+    {
+      title: 'GitHub',
+      link: 'https://github.com/egoist/docute'
+    }
+  ]
+})
   </script>
 </body>
 </html>
