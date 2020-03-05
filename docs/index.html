@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>Frequency Downconverter</title>
+  <link rel="stylesheet" href="https://unpkg.com/docute@3/dist/docute.css">
+  <script type="text/javascript">block_aplayer = true;</script>
+  <script src="https://cdn.yimian.xyz/ushio-js/ushio-head.min.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
+  <script src="https://cdn.yimian.xyz/ushio-js/ushio-footer.min.js"></script>
+  <script>
+    docute.init({
+      nav: [
+        {
+          title: 'Home',
+          link: '/'
+        },
+        {
+          title: 'GitHub',
+          link: 'https://github.com/iotcat/fdc'
+        },
+        // A dropdown menu
+        {
+          title: 'LogBook',
+          children: [
+            {
+              title: 'Overview',
+              link: '/log/logbook'
+            },
+            {
+              title: 'AA Meeting',
+              link: '/log/aameeting'
+            }
+          ]
+        }
+      ],
+      sidebar: [
+        // A sidebar item, with child links
+        {
+          title: 'Guide',
+          children: [
+            {
+              title: 'Circuit Design',
+              link: '/part/schematic'
+            },
+            {
+              title: 'PCB Design',
+              link: '/part/pcb'
+            }
+          ]
+        },
+        // An external link
+        {
+          title: 'GitHub',
+          link: 'https://github.com/egoist/docute'
+        }
+      ]
+    })
+  </script>
+</body>
+</html>
