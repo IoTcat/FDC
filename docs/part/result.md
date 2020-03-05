@@ -14,7 +14,7 @@ This figure shows the back side of the PCB result. It can be shown that this sid
 
 ### Equipments
 
-![sa](/img/sa.jpg)
+![sa](/img/as.jpg)
 
 The most important (and the most expensive) equipment is the spectrum analyzer, which was shown in the above figure. This equipment can display the signal in frequency domain. However, this type of spectrum analyzer can only accept one input at one time, so we may need to the target separatly and combine them together maybe use Photoshop.
 
