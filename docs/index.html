@@ -17,27 +17,26 @@
 
 
     docute.init({
-  sidebar: [
-    // A sidebar item, with child links
-    {
-      title: 'Guide',
-      children: [
-        {
-          title: 'Getting Started',
-          link: '/guide/getting-started'
-        },
-        {
-          title: 'Installation',
-          link: '/guide/installation'
-        }
-      ]
-    },
-    // An external link
-    {
-      title: 'GitHub',
-      link: 'https://github.com/egoist/docute'
+      title: 'wIoT',
+    repo: 'iotcat/wIoT',
+    twitter: 'iotcat',
+    'edit-link': 'https://github.com/IoTcat/wIoT/blob/master/docs/',
+    nav: {
+        default: [
+            {
+                title: 'Home', path: '/home'
+            },
+            {
+                title: 'Ecosystem', path: '/ecosystem'
+            },
+            {
+                title: 'Support wIoT', path: '/support'
+            },
+            {
+                title: 'Languages', type: 'dropdown', items: langs
+            }
+        ]
     }
-  ]
 })
   </script>
 </body>
