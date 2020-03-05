@@ -58,4 +58,4 @@ We learned the basic uses of Git. Continue did the schematic simulation and PCB 
 
 
 -----------------------------
-☛[Go back to Guide](/)
+☛[Go back to Home](/)

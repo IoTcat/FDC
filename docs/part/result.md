@@ -30,4 +30,4 @@ Besides, High-Frequency signal generator, DC power supplier are also needed in t
 
 
 -----------------------------
-☛[Go back to Guide](/)
+☛[Go to Log Book](/log/logbook)

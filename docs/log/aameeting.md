@@ -85,4 +85,4 @@
 
 
 -----------------------------
-☛[Go back to Guide](/)
+☛[Go to Group Meeting Log](/log/groupmeeting)

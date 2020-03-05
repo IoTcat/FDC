@@ -13,12 +13,6 @@ A typical FDC accept two input signal and output the combined signal at f1+f2 an
  - Obtain skills and experience to cooperate with team
  - Make a simple FDC which can work
 
-## Guide
- - [Logbook](/log/logbook)
- - [AA meeting log](/log/aameeting)
- - [Group meeting log](/log/groupmeeting)
-
-
 -----------------------------
 ☛[Go to the Circuit Part blog](/part/circuit)
 

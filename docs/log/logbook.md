@@ -51,4 +51,4 @@ Log Book - Frequency Downconverter Proj
 
 
 -----------------------------
-☛[Go back to Guide](/)
+☛[Go to AA Meeting Log](/log/aameeting)
