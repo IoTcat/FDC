@@ -82,4 +82,7 @@
 - Place through hole alone the high frequency line
 - Use Laying copper to ground most place
 - Check the minimum width of wire
-- 
+
+
+-----------------------------
+☛[Go back to Guide](/)

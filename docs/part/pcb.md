@@ -9,6 +9,9 @@ Before the PCB design, the component library of the schematic and the component 
 
 ## PCB structure design and layout
 Due to the small number of PCB design components and the complexity of the circuit, single-layer boards were selected to simplify design and production.
+
+![pcb](/img/pcb.png)
+
 Because the radio frequency (RF) circuit is a distributed parameter circuit, it is easy to produce a coupling effect in the actual work of the circuit. Therefore, in the actual PCB design, it will be found that the interference radiation in the circuit is difficult to control.
 For example, problems such as mutual interference between digital circuits and analog circuits, noise interference from power supplies, and interference caused by unreasonable ground lines. 
 In the process of PCB layout, we mainly refer to the data sheet of the integrated circuit and the circuit layout of the schematic.
@@ -23,3 +26,7 @@ After designing the routing, pads, and vias, a DRC (Design Rule Check) should be
 ## Copper plating
 The main purpose of copper plating is to improve the anti-interference ability of the circuit. At the same time, it has great benefits for PCB heat dissipation and PCB strength. Copper grounding can also serve as a shield.
 In high-frequency circuits, a ground (GND) copper isolation shield is required. Therefore, a large area of copper is applied on the bottom layer to connect all ground wires. For the top layer, the circuit requires strict impedance control, and copper plating is likely to affect impedance control due to distributed capacitance. The wiring density around the integrated circuit is high, and the excessive copper separation may affect grounding.
+
+
+-----------------------------
+☛[Go to the Result Part blog](/part/result)

@@ -1,12 +1,12 @@
 Log Book - Frequency Downconverter Proj
- - Archieved at 2020-03-04 22:11:13 UTC
+>   ※ Archieved at 2020-03-04 22:11:13 UTC
 
-Week 0
+## Week 0
  - Investigate background info
  - Select IC
  - Give out first component purchase list
 
-Week 1
+## Week 1
  - learn how to use Altium Designer
  - Learn filter design
  - Learn LT5512 data sheet
@@ -14,14 +14,14 @@ Week 1
  - Clarify the division of responsibility
  - Decide to choose Butterworth Filter
 
-Week 2
+## Week 2
  - Build schematic library
  - Build PCB library
  - Build missing PCB footprint
  - Begin to think about impedance match
  - Determined the circuit diagram except the part of IF BPF (Schematic v0.0.1)
 
-Week 3
+## Week 3
  - Learn how to design PCB
  - Design impedance matching
  - Put forward schematic v1.0.0
@@ -31,19 +31,24 @@ Week 3
  - Generate second component purchase list
  - Learn Latex and Git
 
-Week 4
+## Week 4
  - PCB routing
  - Ethic and sustainability report
  - IF part simulation using ADS
  - Convert PCB proj from Altium to EagleCAD
 
-Week 5
+## Week 5
  - Output gerber files
  - Submit PCB Design to workshop
  - Poster Design
 
-Week 6
+## Week 6
  - Print out poster
  - Prepare for presentation
  - Conclude the project
  - Classify and publish the blog
+
+
+
+-----------------------------
+☛[Go back to Guide](/)
