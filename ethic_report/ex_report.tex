@@ -1,0 +1,218 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{graphicx, fullpage, hyperref, listings}
+\usepackage{appendix, pdfpages, color}
+
+\usepackage{tocloft}            % This squashes the Table of Contents a bit
+\setlength\cftbeforesecskip{3pt}
+
+\definecolor{MyLightYellow}{cmyk}{0,0.,0.2,0}
+
+\setlength{\parskip}{4pt}        % sets spacing between paragraphs
+\interfootnotelinepenalty=500    % this prevents footnotes breaking across pages
+
+\title{\includegraphics[width=0.4\textwidth]{UnivCrest}
+        \\Experiment 14 - The Unknown Circuit}          % <<<<<<<<< change the title as appropriate
+\author{%\textcolor{red}{Student ID 200123456 (Group 999)}                % <<<<<<<<< your ID and group number
+        \\  \textcolor{red}{ELEC273}\footnote{\textcolor{red}{IMPORTANT: In a standard technical report, you would need to include here your personal details as the author of the document. However, remember that marking of coursework is anonymous and therefore you should remove this part before submitting your report for Year 2 labs! Do not include your name, student ID, email address or any other personal information.}}}                                    % <<<<<<<<< module code
+\date{\tiny{\today}}
+
+\begin{document}
+\begin{titlepage}
+\maketitle
+\addtocontents{toc}{\protect\thispagestyle{empty}} % because we don't want a page number on the title page
+                                                   % Thanks to Huang Shanyue for suggesting this
+
+\begin{abstract}
+This document describes what is expected from an engineering laboratory report. While this is not a definitive guide to report-writing, it is intended as a guide to assist in documenting and presenting your experimental work. Appended to this guide are some real examples of common mistakes that should be avoided. It is expected that lab reports are prepared using the \LaTeX~ typesetting system, adopting pne of the standard report templates provided on VITAL.
+\end{abstract}
+
+\fbox{
+\begin{minipage}{0.9\linewidth} \footnotesize
+\begin{center} \textbf{Declaration} \end{center}
+I confirm that I have read and understood the University's definitions of plagiarism and collusion from the Code of Practice on Assessment. I confirm that I have neither committed plagiarism in the completion of this work nor have I colluded with ant other party in the preparation and production of this work. The work presented here is my own and in my own words except where I have clearly indicated and acknowledged that I have quoted or used figures from published or unpublished sources (including the web). I understand the consequences of engaging in plagiarism and collusion as described in the Code of Practice on Assessment (Appendix L).
+\end{minipage}
+}
+
+\thispagestyle{empty}
+\newpage
+\tableofcontents
+\end{titlepage}
+
+
+%-------------------------------------------------------------------------------------------------------
+\section{Introduction}
+%-------------------------------------------------------------------------------------------------------
+
+
+Include a statement of the problem to be investigated, and why is addressing this problem worthwhile or important. This section should also introduce the history and theoretical background of the problem, a brief statement of the general procedure adopted and hint at expected results. This section is sometimes broken down into subsections: Objectives and Theoretical Background.
+
+%-------------------------------------------------------------------------------------------------------
+\section{Materials and Methods}
+%-------------------------------------------------------------------------------------------------------
+
+The materials list can be a simple list of all the equipment/apparatus used, in as much detail as possible (eg. mention the make/model of things like signal generators, the values of all components, the exact model of any development boards used etc). If you are using software, the name and version of the software is important.
+
+The Method/Procedure section describes the experimental process in chronological order (i.e. in the order in which they happened). If you did not follow the documented procedure for any reason, make sure this is mentioned (e.g. ``At step 4 four repetitions were performed instead of three, and the data from the second repetition was ignored. This is due to a circuit fault that was discovered that called the accuracy of these readings into question.'')
+
+% You may want to use the {enumerate} environment for a numbered list.
+%
+%\begin{enumerate}
+%    \item First numbered item
+%        \subitem You can even have nested layers
+%    \item Second numbered item
+%    \item Third numbered item
+%\end{enumerate}
+
+
+%-------------------------------------------------------------------------------------------------------
+\section{Results}
+%-------------------------------------------------------------------------------------------------------
+
+This is where you describe the important qualitative and quantitative observations from the experiment. Data should be tabulated and/or graphed. Graphs must always be captioned (as with figures, above), and axes clearly annotated with units. Always follow your graphs with a brief description, demonstrating your understanding of what has been plotted (eg. ``The graph in Fig. 4 illustrates the frequency response of this circuit, with a clear resonance peak at 15~kHz.'') as tables and graphs are rarely self-explanatory. If the results differ from what was expected, explain both \textbf{how} (i.e. in what way) and \textbf{why} (i.e. possible reasons behind this behaviour) when referring to these results.
+
+% This is how you could include a figure
+%
+%\begin{figure}[htbp]     \begin{centering}
+%    \includegraphics[width=0.5\textwidth]{OpAmp.jpg}
+%    \caption{Circuit diagram of non-inverting amplifier circuit used in Part 1 (taken from~\cite{ref:Radio})}
+%    \end{centering}
+%    \label{Fig:OpAmp}
+%\end{figure}
+
+% Here are some example tables
+
+The summary of the experimental results is presented in Table~\ref{tab:summary}
+
+\begin{table}[htbp]
+\caption{Note that table captions are placed above the tables, not below as for figures}
+\label{tab:summary}
+\begin{center}
+\begin{tabular}{ccc}
+\hline
+ $P$ (W)      & $V$ (V)       & $I$ (A)   \\
+\hline
+$0.0\pm0.01$ & $0.0\pm0.01$ & $0.0\pm0.01$  \\
+ 0.1         & 0.2          &  0.3         \\
+ 0.1         & 0.2          &  0.3         \\
+ 0.1         & 0.2          &  0.3         \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[htbp]
+\caption{Resistance and Temperature of the Filament}
+\label{tab:data}
+\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline
+$R$ ($\Omega$) & $T$ (K) & $1/T$ (K$^{-1}$) & $\ln P$ \\
+\hline\hline
+151.00$\pm$3.92 & 828.35$\pm$23.46& $1.2072\times10^{-3}$& -13.29 \\ \hline
+157.12$\pm$3.71 & 856.88$\pm$22.25& $1.1671\times10^{-3}$& -12.64 \\ \hline
+162.53$\pm$3.49 & 881.99$\pm$21.02& $1.1338\times10^{-3}$& -12.33 \\ \hline
+166.67$\pm$3.33 & 901.14$\pm$20.13& $1.1097\times10^{-3}$& -11.90 \\ \hline
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+%------------------------------------------------------------------------------------------------------- 
+\section{Discussion}
+%-------------------------------------------------------------------------------------------------------
+
+The Discussion section allows you to fully discuss and interpret the results and the results of the any analysis carried out. It is also important here to relate your findings to the experimental objectives, i.e. do your results support the theoretical background, and have the objectives of the experiment been met? Are the results reliable and/or significant?
+
+Mathematical expressions can be included in \LaTeX documents easily by surrounding them in \verb|$| signs, such as $f$, $\delta x$, $\Omega_2$, $y=mx+b$ or $\mu = \frac{1}{N}\sum_{i=1}^N x_i$. Numbered equations can be created just as easily using the \verb|equation| environment:
+
+\begin{equation}
+\mu = \frac{1}{N}\sum_{i=1}^N x_i.
+\label{eq:mean}
+\end{equation}
+
+When making reference to the above equation, you simply need to mention the label, as in ``\verb|...as shown in Equation~\ref{eq:mean}.|'', and the Equation number will be inserted automatically. If you need to show several lines of mathematical expressions, you can use the \verb|eqnarray| environment as below:
+
+\begin{eqnarray}
+  P & = & I V             \\
+    & = & I^2 R           \\
+    & = & \frac{V^2}{R}
+\label{eq:power}
+\end{eqnarray}
+Further guidance on writing and manipulating mathematical expressions, symbols and equations can be found online in references such as~\cite{ref:Maths}.
+
+%-------------------------------------------------------------------------------------------------------
+\section{Conclusions}
+%-------------------------------------------------------------------------------------------------------
+
+This final section contains a brief statement to summarise the outcome of the experiment, and a statement outlining to what extent the objectives of the experiment have been met, and what has been learnt as a result of this. In some ways the Conclusions section is a reflection of the Abstract, reiterating what the experiment was aiming to achieve, and summarising the outcomes. It can also be thought of as a summary of the Discussion section.
+
+%
+
+%-------------------------------------------------------------------------------------------------------
+
+\bibliographystyle{IEEEtran}
+\bibliography{MyRefs}         % The file MyRefs.bib contains the actual bibliography material
+                                  % References section created automatically
+\addcontentsline{toc}{section}{References}
+
+
+
+% --------------------------- This is how to declare the Appendices section ----------------------------
+\newpage
+\appendix
+\appendixpage
+\addappheadtotoc
+
+These Appendices are all optional...
+
+%-------------------------------------------------------------------------------------------------------
+\section{Tables}
+%-------------------------------------------------------------------------------------------------------
+
+%If you have pages and pages of numberical results, these can be tabulated in the Appendix rather than included in the body of the report.
+
+%-------------------------------------------------------------------------------------------------------
+\section{Program Listings}
+%-------------------------------------------------------------------------------------------------------
+
+Program listings and source code can be neatly incorporated into your reports by including them in a \verb|\lstlisting| environment, as in Listing~\ref{myCircleCode} below, or if you are constantly editing your program, you could import the code directly from the source itself (provided you've uploaded it to your ScribTeX workspace). In this way, whenever you modify the source, all you need to do is recompile the \LaTeX code and your report document will automatically be updated. The command to use would be something like \verb|\lstinputlisting{MY_CIRCLE.m}|.
+
+%-------------------------- Source code / program listings can be inserted using like this -----------
+\lstset{language=MATLAB, frame=single, basicstyle=\footnotesize, backgroundcolor=\color{MyLightYellow}, caption={This is how to include some source code},label=myCircleCode}
+\begin{lstlisting}
+[x,y] = MY_CIRLCLE(x_centre, y_centre, radius)
+
+% MY_CIRCLE.m - A MATLAB function to draw a circle on the screen
+% Syntax is:
+%            [x,y] = MY_CIRLCLE(x_centre, y_centre, radius)
+%
+% Waleed Al-Nuaimy, 1st July 2011
+
+theta = linspace(0, 2*pi, 200);        % in radians
+x     = x_centre + radius*cos(theta);  % radius can be negative!
+y     = y_centre + radius*sin(theta);
+plot(x,y,'r-')                         % connect using red line
+axis('equal')                          % to preserve aspect ratio
+ylabel('y')
+xlabel('x')
+title(['Circle centred at (',num2str(x_centre),',', ...
+       num2str(y_centre),') of radius ',num2str(radius)])
+\end{lstlisting}
+%-------------------------------------------------------------------------------------------------------
+
+% If you want to link directly to the source code, you'll need to first upload it to this folder, then the command is: % \lstinputlisting[language=MATLAB]{MY_CIRCLE.m}
+
+%-------------------------------------------------------------------------------------------------------
+\section{Log Book}
+%-------------------------------------------------------------------------------------------------------
+
+% You can add scanned pages from your log book, or photographs of your circuit etc
+
+%-------------------------------------------------------------------------------------------------------
+\section{Data Sheets}
+%-------------------------------------------------------------------------------------------------------
+
+
+\end{document}
